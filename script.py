@@ -79,8 +79,8 @@ def save_data_to_excel(data, filename="web_crawl_data.xlsx"):
 def main():
     """The main entry point of the script."""
     print('Starting web crawling...')
-    base_url = "https://www.yahoo.com/"  # הכנס כאן את הכתובת הרצויה
-    # base_url = "https://www.ksp.co.il/"  # הכנס כאן את הכתובת הרצויה
+    base_url = "https://www.yahoo.com/"  # put your address here
+    
     extracted_data = crawl_website(base_url)
     save_data_to_excel(extracted_data)
 
